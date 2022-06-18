@@ -1,0 +1,60 @@
+.Main-container{
+    display: flex;
+    flex-direction: row;
+    height: 35em;
+    background: url(./bg-intro-desktop.png);
+    
+    background-color: red;
+    padding-top: 50px;
+    opacity: 0.7; 
+    font-family:Poppins; 
+    font-size: large;
+    margin: 100px;
+}
+.First-section{
+    width: 400px;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-right: 200px;
+    color: white;
+}
+.First-section p{
+    font-size: 16px;
+    font-weight: 500;
+}
+h1{
+    font-weight: 700;
+}
+.box-header p{
+
+   border: 10px solid hsl(248, 32%, 49%);
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 16px;
+
+}
+.form-container{
+    border: 2px;;
+    height: 25em;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+   
+    
+}
+form{
+     margin-top: 20px;
+}
+input{
+    width: 95%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    text-align: center;
+margin-right: 30px;
+margin-bottom: 10px;
+}
+imput{type:button}
